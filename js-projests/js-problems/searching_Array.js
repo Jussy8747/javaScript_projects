@@ -12,9 +12,9 @@ function getIndexToIns(arr, num) {
     
   }
   return i
-}else {
-  return arr2
 }
+  return arr2
+
 }
 
 console.log(getIndexToIns([2, 5, 10], 10));
