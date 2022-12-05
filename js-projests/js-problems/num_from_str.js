@@ -1,6 +1,6 @@
-const score = [900,40,50,64,35,,56,9,20,76,73]
-let minMax = score.reduce((acc,scr)=>{
-return [Math.min(acc[0], scr), Math.max(acc[1], scr)]
-},[100, 0])
+let pal = "Never odd or even."
+let rev = function(str){
+  return Array.from(str)
+}
 
-console.log(minMax)
+console.log(rev(pal))
